@@ -1,0 +1,73 @@
+.main-div {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(144, 157, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-div {
+  min-height: 50vh;
+  width: 27vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.center-div > h1 {
+  text-align: center;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 100%;
+}
+.input-item {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+}
+
+.submitBtn {
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: royalblue;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.task {
+  width: 100%;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #fff;
+  background-color: royalblue;
+  border-radius: 2rem;
+  cursor: pointer;
+}
